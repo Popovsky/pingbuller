@@ -1,0 +1,38 @@
+.content-1 {
+    background: rgb(117,81,130);
+    background: linear-gradient(180deg, rgba(117,81,130,1) 0%, rgba(87,61,97,1) 60%, rgba(55,40,62,1) 100%);
+}
+
+.content-1 i {
+    color: white;
+    font-size: 35px;
+}
+
+.content-1 .row>div:nth-child(odd)>div {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.content-1 .row>div>div>h2 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'leaguegothic', serif;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.content-1 .row>div>div>p {
+    color: white;
+    line-height: 1.8;
+}
+
+.content-1 .row>div>div>div {
+    padding: 40px 40px 0 0;
+    text-align: right;
+}
+
+.content-1 .row>div>div>div>h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'leaguegothic', serif;
+}

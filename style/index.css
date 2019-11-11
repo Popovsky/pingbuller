@@ -1,0 +1,21 @@
+.bx-wrapper {
+    background: transparent!important;
+    box-shadow: none!important;
+    border: none!important;
+    margin: 0 auto!important;
+}
+
+.navbar-default {
+    background: transparent!important;
+    border: none!important;
+    margin: 0!important;
+}
+
+.container {
+    width: 80%!important;
+}
+
+p {
+    font-family: 'Jomolhari', serif;
+    font-size: 17px;
+}

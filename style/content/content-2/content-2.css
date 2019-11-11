@@ -1,0 +1,78 @@
+.content-2 {
+    background: #f9f9f9;
+    border-bottom: 1px solid lightgray;
+}
+
+.content-2 .content-slider .slide>.container {
+    padding-bottom: 20px;
+}
+
+.content-2 .content-slider .slide>.container>div{
+    background: white;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 25px;
+    height: auto;
+    position: relative;
+}
+
+.content-2 h3, .content-2 h4 {
+    text-transform: uppercase;
+    font-family: 'leaguegothic', serif;
+}
+
+.content-2 h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.content-2 .content-slider .slide>.container>div>h3 {
+    margin: 0 0 10px 0;
+}
+
+.content-2 .content-slider .slide>.container>div>p {
+    line-height: 1.8;
+    margin: 0;
+}
+
+.content-2 .content-slider .slide>.container>div>img.man {
+    position: absolute;
+    top: 18px;
+    left: -30px;
+}
+
+.content-2 .content-slider .slide>.container>div>.last {
+    position: absolute;
+    bottom: -18px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.content-2 .content-slider .slide>.container>div>.first {
+    position: absolute;
+    bottom: -20px;
+    right: 19px;
+    color: lightgray;
+    font-size: 33px;
+}
+
+.content-2 .content-slider .slide>.container>div>h3>span {
+    color: #edbfff;
+}
+
+.content-2 .bx-next, .content-2 .bx-prev {
+    display: none;
+}
+
+.content-2 .right .row {
+    padding-bottom: 15px;
+}
+
+.content-2 .right .row div:last-child p {
+    margin: 0;
+}
+
+.content-2 .right .row div:last-child p:first-child {
+    font-weight: bold;
+}

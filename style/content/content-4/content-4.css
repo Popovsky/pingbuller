@@ -1,0 +1,27 @@
+.content-4 {
+    background: #ececec;
+}
+
+.content-4 .row h1 {
+    text-transform: uppercase;
+    font-family: 'leaguegothic', serif;
+    font-size: 50px;
+}
+
+.content-4 .row h1>span{
+    color: #cacaca;
+}
+
+.content-4 .row p {
+    margin: 0;
+}
+
+.content-4 .row .italic {
+    font-style: italic;
+}
+
+.content-4 .row h2 {
+    text-transform: uppercase;
+    font-family: 'leaguegothic', serif;
+    font-size: 35px;
+}

@@ -1,0 +1,29 @@
+@media(max-width: 767px) {
+    .header {
+        padding: 40px 0;
+    }
+
+    .header .container > .row {
+        display: block;
+    }
+
+    .header .navbar-default .navbar-toggle {
+        position: absolute;
+        top: -65px;
+        right: 0;
+    }
+
+    .header .header-slider .slide .row {
+        display: block;
+    }
+
+    .header .bx-next, .header .bx-prev {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .header .header-slider .slide .row {
+        display: block;
+    }
+}

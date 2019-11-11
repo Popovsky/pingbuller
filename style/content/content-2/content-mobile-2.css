@@ -1,0 +1,9 @@
+@media(max-width: 767px) {
+    .content-2 .content-slider .slide {
+        margin: 0 15px;
+    }
+
+    .content-2>.container>.row>div:last-child {
+        padding-top: 40px;
+    }
+}

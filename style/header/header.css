@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "leaguegothic";
+    src: url("../../font/LeagueGothic/LeagueGothicRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "nunitosans";
+    src: url("../../font/nunitosans/Nunitosansblackitalic.woff") format("woff");
+}
+
+.header {
+    background: url("../../img/bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 0 100px;
+}
+
+.header .logo {
+    padding-bottom: 20px;
+}
+
+.header-content {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    padding: 5px 0;
+}
+
+/*.header .container {*/
+/*    width: 80%;*/
+/*}*/
+
+.header .container>.row {
+    display: flex;
+    align-items: center;
+}
+
+/*.header .navbar-default {*/
+    /*background: transparent;*/
+    /*border: none;*/
+    /*margin: 0;*/
+/*}*/
+
+.header .navbar-default div>ul {
+    width: 100%;
+}
+
+.header .navbar-default div>ul li {
+    padding-right: 3%;
+}
+
+/*.header .navbar-default div>ul li>a {*/
+/*}*/
+
+.header .navbar-default div>ul li>a>p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'leaguegothic', serif;
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header .navbar-default div>ul li>a:hover {
+    color: white;
+}
+
+.header .navbar-default div>ul li>a>p:hover {
+    border-bottom: 2px solid #dfb5f0;
+    color: white;
+}
+
+/*.header .bx-wrapper {*/
+    /*background: transparent;*/
+    /*box-shadow: none;*/
+    /*border: none;*/
+    /*margin: 0;*/
+/*}*/
+
+.header .slider .left>h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'leaguegothic', serif;
+    font-size: 55px;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header .slider .left>h2 {
+    font-family: 'leaguegothic', serif;
+    text-transform: uppercase;
+    color: #f0c1ff;
+    font-size: 35px;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header .slider .left>p {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header .header-slider .bx-viewport {
+    height: auto;
+}
+
+/*.header .slider .right>img {*/
+/*    margin: auto;*/
+/*}*/
+
+.header .slider .right>video {
+    margin: auto;
+    outline: none;
+    width: 100%;
+}
+
+.header .header-slider .slide .row {
+    display: flex;
+    align-items: center;
+}

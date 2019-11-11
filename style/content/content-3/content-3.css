@@ -1,0 +1,16 @@
+.content-3 {
+    background: #f9f9f9;
+}
+
+.content-3 .bx-next, .content-3 .bx-prev {
+    display: none;
+}
+
+.content-3 .bx-pager {
+    display: none;
+}
+
+.content-3 .carousel {
+    display: flex;
+    align-items: center;
+}
